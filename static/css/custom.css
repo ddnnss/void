@@ -1,0 +1,23 @@
+.drop-list{
+  display: flex;
+
+
+}
+.lang-select-input{
+  display: none;
+}
+
+.page-header__languages-link {
+    cursor: pointer;
+    margin-right: 10px !important
+}
+
+.mobile_lang{
+    flex-grow: 1;
+    text-align: center;
+    line-height: 28px;
+}
+.mobile_lang_active{
+        font-weight: 900;
+    background-color: #ebf6f6;
+}

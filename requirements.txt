@@ -1,0 +1,6 @@
+django-ckeditor
+pillow
+pytils
+python-dateutil
+django-modeltranslation
+django-grappelli

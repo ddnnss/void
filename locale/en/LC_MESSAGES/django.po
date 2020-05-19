@@ -1,0 +1,1499 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: .\templates\page\index.html:463
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-11 20:19+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\templates\basic.html:349 .\templates\basic.html:422
+#: .\templates\basic.html:492 .\templates\basic.html:548
+#: .\templates\basic.html:589
+msgid "Закрыть"
+msgstr "Close"
+
+#: .\templates\basic.html:357 .\templates\basic.html:430
+#: .\templates\basic.html:500
+msgid "Следующая услуга"
+msgstr "Next service"
+
+#: .\templates\basic.html:364 .\templates\page\index.html:339
+msgid "Digital-маркетинг"
+msgstr "Digital marketing"
+
+#: .\templates\basic.html:367
+msgid ""
+"В эпоху конкуренции за место в виртуальном пространстве грамотно "
+"разработанная маркетинговая стратегия способна разрушить все барьеры на пути "
+"к целевой аудитории. Инструменты могут быть цифровыми, но стратегии "
+"продвижения разрабатывает опытная и креативная команда специалистов."
+msgstr ""
+"In an era of competition for a place in the virtual space, a well-developed "
+"marketing strategy can destroy all the barriers to reaching the target "
+"audience. Tools can be digital, but promotion strategies are developed by an "
+"experienced and creative team of specialists."
+
+#: .\templates\basic.html:369 .\templates\basic.html:442
+#: .\templates\basic.html:512
+msgid "Что МЫ предлагаем?"
+msgstr "What do we offer?"
+
+#: .\templates\basic.html:371
+msgid "Создание SMM-стратегии"
+msgstr "SMM strategy development"
+
+#: .\templates\basic.html:373
+msgid "Создание контент-стратегии"
+msgstr "Content strategy development"
+
+#: .\templates\basic.html:376
+msgid "Таргетированная реклама"
+msgstr "Targeted advertising"
+
+#: .\templates\basic.html:379
+msgid "Брендирование"
+msgstr "Branding"
+
+#: .\templates\basic.html:382 .\templates\page\index.html:368
+#: .\templates\page\index.html:710
+msgid "Анализ конкурентов"
+msgstr "Competitor analysis"
+
+#: .\templates\basic.html:385
+msgid "Контекстная реклама"
+msgstr "Contextual advertising"
+
+#: .\templates\basic.html:388
+msgid "Дизайн контента"
+msgstr "Content design"
+
+#: .\templates\basic.html:391
+msgid "SEO"
+msgstr "SEO"
+
+#: .\templates\basic.html:394
+msgid "Арбитраж"
+msgstr "Arbitration"
+
+#: .\templates\basic.html:397
+msgid "Внедрение и интеграция CRM-систем"
+msgstr "Implementation and integration of CRM systems"
+
+#: .\templates\basic.html:437 .\templates\page\index.html:264
+msgid "Веб-разработка"
+msgstr "Web development"
+
+#: .\templates\basic.html:440
+msgid ""
+"Креативный и смелый подход, совмещенный с новейшими техническими решениями, "
+"позволяет создавать высокопроизводительные сайты, которые продвигают бренды "
+"и побуждают аудиторию к действию."
+msgstr ""
+"A creative and brave approach combined with the latest technical solutions "
+"allows us to create high performance websites that promote brands and "
+"encourage the audience to act."
+
+#: .\templates\basic.html:444
+msgid "Промо-сайт"
+msgstr "Promo site"
+
+#: .\templates\basic.html:446
+msgid "Сайт-визитка"
+msgstr "Brochure Website"
+
+#: .\templates\basic.html:449
+msgid "Интернет-магазин"
+msgstr "E-commerce website"
+
+#: .\templates\basic.html:452
+msgid "Корпоративный сайт"
+msgstr "Corporate website"
+
+#: .\templates\basic.html:455
+msgid "Новостной сайт"
+msgstr "News website"
+
+#: .\templates\basic.html:458
+msgid "Личный блог"
+msgstr "Personal blog"
+
+#: .\templates\basic.html:461
+msgid "Веб-портал"
+msgstr "Web portal"
+
+#: .\templates\basic.html:464
+msgid "Веб-приложение"
+msgstr "Web application"
+
+#: .\templates\basic.html:467 .\templates\basic.html:522
+msgid "Автоматизация процессов"
+msgstr "Process Automation"
+
+#: .\templates\basic.html:507 .\templates\page\index.html:300
+msgid "Мобильная разработка"
+msgstr "Mobile development"
+
+#: .\templates\basic.html:510
+msgid ""
+"Ценный опыт и использование лучших технологий позволяют предлагать полный "
+"цикл услуг по мобильной разработке, внедрению нового продукта в "
+"инфраструктуру и дальнейшей оптимизации и поддержки. Сопровождение от идеи "
+"до запуска!"
+msgstr ""
+"Valuable experience and the use of the best technologies allow us to offer a "
+"full cycle of services for mobile development, implementation of a new "
+"product in the infrastructure and further optimization and support. "
+"Accompaniment from idea to launch!"
+
+#: .\templates\basic.html:514
+msgid "Разработка приложений"
+msgstr "Application development"
+
+#: .\templates\basic.html:516
+msgid "Интеграция между приложениями"
+msgstr "Integration between applications"
+
+#: .\templates\basic.html:519
+msgid "Разработка чат-ботов"
+msgstr "Chatbot development"
+
+#: .\templates\basic.html:556 .\templates\basic.html:597
+msgid "Следующий шедевр"
+msgstr "Next"
+
+#: .\templates\footer.html:60
+msgid "Политика конфиденциальности"
+msgstr "Privacy policy"
+
+#: .\templates\footer.html:63
+msgid "Условия использования"
+msgstr "Terms of Use"
+
+#: .\templates\footer.html:66
+msgid "Куки"
+msgstr "Cookies"
+
+#: .\templates\header-index.html:40 .\templates\header.html:40
+#: .\templates\header.html:114 .\templates\page\index.html:191
+msgid "Главное"
+msgstr "Main"
+
+#: .\templates\header-index.html:45 .\templates\header.html:45
+#: .\templates\header.html:119 .\templates\page\index.html:196
+#: .\templates\page\index.html:254
+msgid "Услуги"
+msgstr "Services"
+
+#: .\templates\header-index.html:50 .\templates\header.html:50
+#: .\templates\header.html:124 .\templates\page\index.html:201
+#: .\templates\page\index.html:386
+msgid "Портфолио"
+msgstr "Portfolio"
+
+#: .\templates\header-index.html:55 .\templates\header.html:55
+#: .\templates\header.html:129 .\templates\page\index.html:206
+#: .\templates\page\index.html:438
+msgid "Цены"
+msgstr "Prices"
+
+#: .\templates\header-index.html:60 .\templates\header.html:60
+#: .\templates\header.html:134 .\templates\page\index.html:211
+#: .\templates\page\index.html:747
+msgid "Партнеры"
+msgstr "Partners"
+
+#: .\templates\header-index.html:65 .\templates\header.html:65
+#: .\templates\header.html:139 .\templates\page\articles.html:11
+#: .\templates\page\index.html:216 .\templates\page\index.html:803
+msgid "Блог"
+msgstr "Blog"
+
+#: .\templates\header-index.html:70 .\templates\header.html:70
+#: .\templates\header.html:144 .\templates\page\index.html:222
+msgid "Контакты"
+msgstr "Contacts"
+
+#: .\templates\header-index.html:98 .\templates\header.html:93
+msgid "Связаться"
+msgstr "Contact"
+
+#: .\templates\page\_modal_consult.html:6 .\templates\page\index.html:892
+msgid "Бесплатная консультация"
+msgstr "Free consultation"
+
+#: .\templates\page\_modal_consult.html:11 .\templates\page\index.html:895
+msgid "Ваше полное имя"
+msgstr "Your full name"
+
+#: .\templates\page\_modal_consult.html:12 .\templates\page\index.html:896
+msgid "Имя Фамилия"
+msgstr "First Name Last Name"
+
+#: .\templates\page\_modal_consult.html:17 .\templates\page\index.html:899
+msgid "Номер телефона"
+msgstr "Phone number"
+
+#: .\templates\page\_modal_consult.html:27 .\templates\page\index.html:907
+msgid "ПОЗВОНИТЕ МНЕ"
+msgstr "CALL ME"
+
+#: .\templates\page\_modal_consult.html:40
+msgid " Мы перезвоним Вам"
+msgstr "We will call you back"
+
+#: .\templates\page\_modal_consult.html:41
+msgid "через"
+msgstr "in"
+
+#: .\templates\page\_modal_consult.html:41 .\templates\page\index.html:127
+#: .\templates\page\index.html:918
+msgid "5 минут"
+msgstr "5 minutes"
+
+#: .\templates\page\article.html:27
+msgid "Узнайте обо всем вовремя"
+msgstr "Find out about everything in time"
+
+#: .\templates\page\article.html:33 .\templates\page\articles.html:17
+#: .\templates\page\index.html:841
+msgid "Наш Телеграм-канал"
+msgstr "Our Telegram Channel"
+
+#: .\templates\page\article.html:38
+msgid "Поделитесь"
+msgstr "Share"
+
+#: .\templates\page\article.html:73
+msgid "Другие записи"
+msgstr "Other entries"
+
+#: .\templates\page\article.html:76 .\templates\page\index.html:808
+msgid "Все статьи"
+msgstr "All articles"
+
+#: .\templates\page\articles.html:84
+msgid "Показать еще"
+msgstr "Show more"
+
+#: .\templates\page\index.html:87
+msgid "Бесплатная"
+msgstr "Free"
+
+#: .\templates\page\index.html:88
+msgid "консультация"
+msgstr "consultation"
+
+#: .\templates\page\index.html:94
+msgid "Как Вас зовут?"
+msgstr "Your name"
+
+#: .\templates\page\index.html:100
+msgid "Ваш телефон"
+msgstr "Phone number"
+
+#: .\templates\page\index.html:104
+msgid "Мы бесплатно"
+msgstr "We are free"
+
+#: .\templates\page\index.html:105
+msgid "консультируем Вас по"
+msgstr "advise you on"
+
+#: .\templates\page\index.html:106
+msgid "веб-технологиям"
+msgstr "web technology"
+
+#: .\templates\page\index.html:113
+msgid "Позвоните мне"
+msgstr "Call me"
+
+#: .\templates\page\index.html:123 .\templates\page\index.html:917
+msgid "Мы"
+msgstr "We"
+
+#: .\templates\page\index.html:124
+msgid "перезвоним"
+msgstr "callback"
+
+#: .\templates\page\index.html:125
+msgid "Вам через"
+msgstr "in"
+
+#: .\templates\page\index.html:143
+msgid "МЫ"
+msgstr "WE"
+
+#: .\templates\page\index.html:147
+msgid "создаем сайты"
+msgstr "create sites"
+
+#: .\templates\page\index.html:150
+msgid "увеличиваем"
+msgstr "increase"
+
+#: .\templates\page\index.html:151
+msgid "продажи"
+msgstr "sales"
+
+#: .\templates\page\index.html:154
+msgid "автоматизируем"
+msgstr "automate"
+
+#: .\templates\page\index.html:155
+msgid "процессы"
+msgstr "processes"
+
+#: .\templates\page\index.html:158
+msgid "требуем от веб-сайта"
+msgstr "demand from website"
+
+#: .\templates\page\index.html:159
+msgid "больше, чем Вы!"
+msgstr "more than you"
+
+#: .\templates\page\index.html:162
+msgid "решаем задачи"
+msgstr "we solve problems"
+
+#: .\templates\page\index.html:163
+msgid "вашего бизнеса"
+msgstr "of your business"
+
+#: .\templates\page\index.html:257
+msgid " Что решает Вашу задачу?"
+msgstr "What solves your problem?"
+
+#: .\templates\page\index.html:275
+msgid "Увеличение"
+msgstr "Increase"
+
+#: .\templates\page\index.html:276
+msgid "продаж"
+msgstr "sales"
+
+#: .\templates\page\index.html:284
+msgid "Узнаваемость"
+msgstr "Awareness"
+
+#: .\templates\page\index.html:285
+msgid "бренда"
+msgstr "brand"
+
+#: .\templates\page\index.html:292
+msgid "Взаимодействие с"
+msgstr "Interaction"
+
+#: .\templates\page\index.html:292
+msgid "потребителями"
+msgstr "customer"
+
+#: .\templates\page\index.html:310
+msgid "Работа"
+msgstr "Work"
+
+#: .\templates\page\index.html:317
+msgid "Экономия"
+msgstr "Cost"
+
+#: .\templates\page\index.html:318
+msgid "на сотрудниках"
+msgstr "savings"
+
+#: .\templates\page\index.html:327
+msgid "Автоматизация"
+msgstr "Workflow"
+
+#: .\templates\page\index.html:330
+msgid "работы"
+msgstr "automation"
+
+#: .\templates\page\index.html:350 .\templates\page\index.html:359
+msgid "Продвижение"
+msgstr "Marketing"
+
+#: .\templates\page\index.html:351
+msgid "в соцсетях"
+msgstr "Social Media Marketing (SMM)"
+
+#: .\templates\page\index.html:360
+msgid "в поисковиках"
+msgstr "Search Engine Marketing (SEM)"
+
+#: .\templates\page\index.html:369
+msgid "и аудитории"
+msgstr "Analysis of competitors and auditory"
+
+#: .\templates\page\index.html:389
+msgid "Эти проекты Вам знакомы"
+msgstr "These projects are familiar to you"
+
+#: .\templates\page\index.html:405
+msgid "Вперед"
+msgstr "Forward"
+
+#: .\templates\page\index.html:441
+msgid "Какой сайт решает Ваши задачи?"
+msgstr "Which site solves your problems?"
+
+#: .\templates\page\index.html:446
+msgid "Чтобы недорого"
+msgstr "To save"
+
+#: .\templates\page\index.html:449
+msgid "Чтобы продавать"
+msgstr "To sell"
+
+#: .\templates\page\index.html:452
+msgid "Чтобы все завидовали"
+msgstr "To go all out"
+
+#: .\templates\page\index.html:461
+msgid "Ваш продукт хотят многие, но о компании знают единицы?"
+msgstr "Everyone wants your product, but only a few know about the company?"
+
+#: .\templates\page\index.html:463
+msgid "Сайт станет ходячим"
+msgstr "The website will become "
+
+#: .\templates\page\index.html:463
+msgid "лицом"
+msgstr "the walking face "
+
+#: .\templates\page\index.html:463
+msgid "Вашего бренда! Уникальные решения нашей команды специалистов способны"
+msgstr ""
+"of your brand! The unique solutions of our team of specialists are able"
+
+#: .\templates\page\index.html:463
+msgid "очаровать"
+msgstr "to charm"
+
+#: .\templates\page\index.html:463
+msgid "Вашу аудиторию!"
+msgstr "your audience!"
+
+#: .\templates\page\index.html:467 .\templates\page\index.html:479
+#: .\templates\page\index.html:498 .\templates\page\index.html:510
+#: .\templates\page\index.html:528 .\templates\page\index.html:541
+#: .\templates\page\index.html:618 .\templates\page\index.html:669
+#: .\templates\page\index.html:729
+msgid "Заказать"
+msgstr "Order"
+
+#: .\templates\page\index.html:472 .\templates\page\index.html:503
+#: .\templates\page\index.html:533
+msgid "Цена шедевра"
+msgstr "Price of the masterpiece"
+
+#: .\templates\page\index.html:490
+msgid " А Вы знали, что можете выбирать свою аудиторию сами?"
+msgstr "Did you know that you can choose your audience by yourself?"
+
+#: .\templates\page\index.html:493
+msgid ""
+"Сайт – это не просто лицо компании, но и движущая сила увеличения продаж! Мы "
+"превратим посетителя сайта в Вашего клиента!"
+msgstr ""
+"The website is not just the face of the company, but also the driving force "
+"for sales increase! We will turn a website visitor into your client!"
+
+#: .\templates\page\index.html:521
+msgid "Хотите стать следующей историей успеха?"
+msgstr "Want to become the next success story?"
+
+#: .\templates\page\index.html:524
+msgid ""
+"Совершенство не ждет, клиентов надо удерживать, а позиции надо сохранять и "
+"наращивать! Наш комплексный подход выведет Вас на новый уровень!"
+msgstr ""
+"Perfection does not wait, customers must be held, and positions must be "
+"maintained and strengthened! Our integrated approach will lead you to a new "
+"level!"
+
+#: .\templates\page\index.html:559
+msgid "Тарифы на продвижение"
+msgstr "Advertising packages"
+
+#: .\templates\page\index.html:575
+msgid "Хочу увеличить количество клиентов"
+msgstr "Want to increase the number of customers"
+
+#: .\templates\page\index.html:584
+msgid "Бюджетный"
+msgstr "Basic"
+
+#: .\templates\page\index.html:591 .\templates\page\index.html:636
+#: .\templates\page\index.html:687
+msgid "в месяц"
+msgstr "per month"
+
+#: .\templates\page\index.html:596 .\templates\page\index.html:641
+#: .\templates\page\index.html:692
+msgid "Количество мест"
+msgstr "The number of places"
+
+#: .\templates\page\index.html:605 .\templates\page\index.html:650
+#: .\templates\page\index.html:701
+msgid "SMM-продвижение"
+msgstr "SMM Advertising"
+
+#: .\templates\page\index.html:608 .\templates\page\index.html:653
+#: .\templates\page\index.html:704
+msgid "SEO-продвижение"
+msgstr "SEO Advertising"
+
+#: .\templates\page\index.html:611 .\templates\page\index.html:656
+#: .\templates\page\index.html:707
+msgid "Интеграция CRM систем"
+msgstr "CRM systems integration"
+
+#: .\templates\page\index.html:614
+msgid "Техническая поддержка"
+msgstr "Technical support"
+
+#: .\templates\page\index.html:629
+msgid "Стандартный"
+msgstr "Advance"
+
+#: .\templates\page\index.html:659
+msgid "Разработка промо сайтов"
+msgstr "Promo site development"
+
+#: .\templates\page\index.html:662
+msgid "Интеграция с виджетами"
+msgstr "Widget integration"
+
+#: .\templates\page\index.html:665
+msgid "Куратор проектов"
+msgstr "Project supervision"
+
+#: .\templates\page\index.html:680
+msgid "Эксклюзивный"
+msgstr "Premium"
+
+#: .\templates\page\index.html:713
+msgid "Создание семантического ядра сайта"
+msgstr "Building of the semantic core of the site"
+
+#: .\templates\page\index.html:716
+msgid "Разработка сайта компании"
+msgstr "Website development"
+
+#: .\templates\page\index.html:719
+msgid "Автоматизация бизнес процессов"
+msgstr "Business process automation"
+
+#: .\templates\page\index.html:722
+msgid "Автоматизация воронки продаж"
+msgstr "Sales funnel automation"
+
+#: .\templates\page\index.html:725
+msgid "Персональный менеджер"
+msgstr "Personal manager"
+
+#: .\templates\page\index.html:737
+msgid ""
+"Чтобы сохранить качество, мы вынуждены ограничить максимальное количество "
+"принимаемых заказов по каждому тарифу."
+msgstr ""
+"To maintain quality, we are forced to limit the maximum number of accepted "
+"orders per each package"
+
+#: .\templates\page\index.html:750
+msgid " Станьте тоже нашим партнером"
+msgstr "Become our partner"
+
+#: .\templates\page\index.html:779
+msgid "Совместные работы:"
+msgstr "Joint projects:"
+
+#: .\templates\page\index.html:806
+msgid "Интересные статьи для Вас"
+msgstr "Interesting articles for you"
+
+#: .\templates\page\index.html:854
+msgid "Мы на связи"
+msgstr "We're in touch"
+
+#: .\templates\page\index.html:857
+msgid "Свяжитесь с нами по"
+msgstr "Contact us"
+
+#: .\templates\page\index.html:858
+msgid "любому вопросу"
+msgstr "on any matter"
+
+#: .\templates\page\index.html:918
+msgid "перезвоним Вам через"
+msgstr "callback you in"
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:5
+msgid "Select an image to embed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:27
+msgid "Browse for the image you want, then click 'Embed Image' to continue..."
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:29
+msgid ""
+"No images found. Upload images using the 'Image Button' dialog's 'Upload' "
+"tab."
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:50
+msgid "Images in: "
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:62
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:80
+msgid "Embed Image"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:146
+msgid "Play Slideshow"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:147
+msgid "Pause Slideshow"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:148
+msgid "&lsaquo; Previous Photo"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:149
+msgid "Next Photo &rsaquo;"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:150
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:151
+msgid "&lsaquo; Prev"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
+msgid "Django: the Web framework for perfectionists with deadlines."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:346
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:368
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:369
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:384
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:385
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:396
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:397
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:408
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:409
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\dashboard\templates\admin\index.html:25
+#: .\venv\Lib\site-packages\grappelli\templates\admin\500.html:9
+#: .\venv\Lib\site-packages\grappelli\templates\admin\app_index.html:11
+#: .\venv\Lib\site-packages\grappelli\templates\admin\auth\user\change_password.html:7
+#: .\venv\Lib\site-packages\grappelli\templates\admin\base.html:136
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_form.html:153
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list.html:150
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm.html:150
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm_sidebar.html:151
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_sidebar.html:151
+#: .\venv\Lib\site-packages\grappelli\templates\admin\constance\change_list.html:72
+#: .\venv\Lib\site-packages\grappelli\templates\admin\csv_export_selected_confirmation.html:9
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_confirmation.html:13
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_selected_confirmation.html:13
+#: .\venv\Lib\site-packages\grappelli\templates\admin\index.html:18
+#: .\venv\Lib\site-packages\grappelli\templates\admin\invalid_setup.html:9
+#: .\venv\Lib\site-packages\grappelli\templates\admin\object_history.html:9
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:8
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\index.html:9
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\missing_docutils.html:8
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\model_detail.html:20
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\model_index.html:23
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\template_filter_index.html:25
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\template_tag_index.html:27
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\view_detail.html:7
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\view_index.html:23
+#: .\venv\Lib\site-packages\grappelli\templates\grp_doc\basic_page_structure.html:132
+#: .\venv\Lib\site-packages\grappelli\templates\grp_doc\context_navigation.html:55
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_done.html:6
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_form.html:6
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\recover_form.html:7
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\recover_list.html:6
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\revision_form.html:7
+#: .\venv\Lib\site-packages\grappelli\templates\smuggler\load_data_form.html:24
+msgid "Home"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\dashboard\templates\grappelli\dashboard\modules\app_list.html:19
+#: .\venv\Lib\site-packages\grappelli\dashboard\templates\grappelli\dashboard\modules\model_list.html:9
+#: .\venv\Lib\site-packages\grappelli\templates\admin\app_index.html:30
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_form.html:159
+#: .\venv\Lib\site-packages\grappelli\templates\admin\index.html:44
+#: .\venv\Lib\site-packages\grappelli\templates\related_widget_wrapper.html:18
+msgid "Add"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\dashboard\templates\grappelli\dashboard\modules\recent_actions.html:18
+msgid "None Available"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\404.html:7
+#: .\venv\Lib\site-packages\grappelli\templates\admin\404.html:11
+msgid "Page not found"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\404.html:12
+msgid "We're sorry, but the requested page could not be found."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\500.html:10
+msgid "Server error"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\500.html:15
+msgid "Server error (500)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\500.html:19
+msgid "Server Error <em>(500)</em>"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\500.html:20
+msgid ""
+"There's been an error. It's been reported to the site administrators via e-"
+"mail and should be fixed shortly. Thanks for your patience."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\actions.html:4
+msgid "Run the selected action"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\actions.html:4
+msgid "Go"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\actions.html:11
+msgid "Click here to select the objects across all pages"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\actions.html:11
+#, python-format
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\actions.html:12
+msgid "Clear selection"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\app_index.html:13
+#, python-format
+msgid "<li>%(name)s</li>"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\app_index.html:37
+#: .\venv\Lib\site-packages\grappelli\templates\admin\index.html:52
+msgid "You don´t have permission to edit anything."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\auth\user\change_password.html:11
+#: .\venv\Lib\site-packages\grappelli\templates\admin\auth\user\change_password.html:57
+#: .\venv\Lib\site-packages\grappelli\templates\admin\base.html:103
+msgid "Change password"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\auth\user\change_password.html:15
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_done.html:7
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_form.html:7
+msgid "Password change"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\auth\user\change_password.html:24
+#, python-format
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\auth\user\change_password.html:27
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_form.html:190
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list.html:231
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm.html:239
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm_sidebar.html:236
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_sidebar.html:230
+#: .\venv\Lib\site-packages\grappelli\templates\admin\login.html:31
+#: .\venv\Lib\site-packages\grappelli\templates\smuggler\load_data_form.html:40
+msgid "Please correct the error below."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\auth\user\change_password.html:27
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_form.html:190
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list.html:231
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm.html:239
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm_sidebar.html:236
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_sidebar.html:230
+#: .\venv\Lib\site-packages\grappelli\templates\admin\login.html:31
+#: .\venv\Lib\site-packages\grappelli\templates\smuggler\load_data_form.html:42
+msgid "Please correct the errors below."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\auth\user\change_password.html:34
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_form.html:30
+msgid "New password"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\auth\user\change_password.html:46
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_form.html:37
+msgid "Password (again)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\auth\user\change_password.html:50
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_confirm.html:29
+msgid "Enter the same password as above, for verification."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\base.html:82
+msgid "Django administration"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\base.html:106
+msgid "Log out"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\base.html:113
+msgid "View site"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\base.html:118
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:9
+msgid "Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_form.html:143
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\stacked.html:8
+msgid "Open All Items"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_form.html:144
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\stacked.html:9
+msgid "Close All Items"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_form.html:171
+#: .\venv\Lib\site-packages\grappelli\templates\admin\object_history.html:15
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\revision_form.html:11
+msgid "History"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_form.html:172
+msgid "View on site"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list.html:168
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm.html:168
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm_sidebar.html:169
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_sidebar.html:169
+#: .\venv\Lib\site-packages\grappelli\templates\smuggler\change_list.html:15
+#, python-format
+msgid "Add %(name)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list.html:197
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm.html:197
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm_sidebar.html:184
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_sidebar.html:184
+msgid "Filter"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list.html:258
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm.html:266
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm_sidebar.html:263
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_sidebar.html:257
+#: .\venv\Lib\site-packages\grappelli\templates\admin\constance\change_list.html:108
+#: .\venv\Lib\site-packages\grappelli\templates\admin\submit_line.html:10
+msgid "Save"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm.html:204
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm_sidebar.html:188
+msgid "Apply"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm.html:205
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_filter_confirm_sidebar.html:189
+msgid "Reset"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_results.html:18
+msgid "Toggle sorting"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_results.html:19
+#, python-format
+msgid "Sorting priority: %(priority_number)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\change_list_results.html:20
+msgid "Remove from sorting"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\constance\includes\results_list.html:8
+msgid "Name"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\constance\includes\results_list.html:13
+msgid "Default"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\constance\includes\results_list.html:18
+msgid "Value"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\constance\includes\results_list.html:23
+msgid "Is modified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\constance\includes\results_list.html:67
+msgid "Reset to default"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\csv_export_selected_confirmation.html:12
+msgid "Export selection as CSV"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\csv_export_selected_confirmation.html:31
+msgid "Export following fields:"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\csv_export_selected_confirmation.html:34
+msgid "Select all"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\csv_export_selected_confirmation.html:54
+msgid "Back"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\csv_export_selected_confirmation.html:55
+#: .\venv\Lib\site-packages\grappelli\templates\admin\import_export\change_list_export_item.html:4
+msgid "Export"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_confirmation.html:19
+#: .\venv\Lib\site-packages\grappelli\templates\admin\submit_line.html:7
+#: .\venv\Lib\site-packages\grappelli\templates\related_widget_wrapper.html:26
+msgid "Delete"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_confirmation.html:29
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_confirmation.html:37
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_confirmation.html:47
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_confirmation.html:55
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_selected_confirmation.html:58
+msgid "Cancel"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_confirmation.html:56
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_selected_confirmation.html:59
+msgid "Yes, I'm sure"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_selected_confirmation.html:16
+msgid "Delete multiple objects"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_selected_confirmation.html:26
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_selected_confirmation.html:34
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\delete_selected_confirmation.html:44
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\stacked.html:10
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\stacked.html:59
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\tabular.html:99
+msgid "Add Item"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\stacked.html:25
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\tabular.html:69
+#: .\venv\Lib\site-packages\grappelli\templates\related_widget_wrapper.html:10
+msgid "Change"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\stacked.html:28
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\tabular.html:72
+msgid "View on Site"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\stacked.html:30
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\tabular.html:74
+msgid "Move Item"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\stacked.html:34
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\stacked.html:39
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\tabular.html:78
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\tabular.html:83
+msgid "Delete Item"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\stacked.html:57
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\tabular.html:97
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\edit_inline\tabular.html:8
+msgid "Add Another"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\filter.html:4
+#: .\venv\Lib\site-packages\grappelli\templates\admin\filter_listing.html:3
+#, python-format
+msgid "%(filter_title)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\import_export\change_list_import_item.html:4
+msgid "Import"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\includes\object_delete_summary.html:3
+msgid "Summary"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\index.html:57
+msgid "Custom Views"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\index.html:69
+msgid "Recent Actions"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\index.html:71
+msgid "My Actions"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\index.html:74
+msgid "None available"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\invalid_setup.html:16
+msgid ""
+"Something's wrong with your database installation. Make sure the appropriate "
+"database tables have been created, and make sure the database is readable by "
+"the appropriate user."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\login.html:26
+#: .\venv\Lib\site-packages\grappelli\templates\admin\login.html:67
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_complete.html:17
+msgid "Log in"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\login.html:60
+msgid "Forgotten your password or username?"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\object_history.html:26
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\object_history.html:13
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\recover_list.html:22
+msgid "Date/time"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\object_history.html:27
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\object_history.html:14
+msgid "User"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\object_history.html:28
+msgid "Action"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\object_history.html:34
+msgid "DATETIME_FORMAT"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\object_history.html:42
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\object_history.html:36
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\pagination.html:9
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\pagination.html:14
+#: .\venv\Lib\site-packages\grappelli\templates\admin\pagination.html:16
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\pagination.html:22
+#, python-format
+msgid ""
+"\n"
+"                        %(counter)s result\n"
+"                    "
+msgid_plural ""
+"\n"
+"                        %(counter)s results\n"
+"                    "
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\pagination.html:31
+#: .\venv\Lib\site-packages\grappelli\templates\admin\pagination.html:44
+msgid "Show all"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\popup_response.html:3
+msgid "Popup closing..."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\related_widget_wrapper.html:24
+#: .\venv\Lib\site-packages\grappelli\templates\admin\widgets\related_widget_wrapper.html:18
+#: .\venv\Lib\site-packages\grappelli\templates\related_widget_wrapper.html:16
+#, python-format
+msgid "Add another %(model)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\submit_line.html:13
+msgid "Save as new"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\submit_line.html:16
+msgid "Save and add another"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\submit_line.html:19
+msgid "Save and continue editing"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\widgets\related_widget_wrapper.html:11
+#: .\venv\Lib\site-packages\grappelli\templates\related_widget_wrapper.html:8
+#, python-format
+msgid "Change selected %(model)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin\widgets\related_widget_wrapper.html:25
+#: .\venv\Lib\site-packages\grappelli\templates\related_widget_wrapper.html:24
+#, python-format
+msgid "Delete selected %(model)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:10
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:16
+msgid "Bookmarklets"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:13
+msgid "Documentation bookmarklets"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:18
+msgid ""
+"\n"
+"            <p>To install bookmarklets, drag the link to your bookmarks\n"
+"    toolbar, or right-click the link and add it to your bookmarks. Now you "
+"can\n"
+"    select the bookmarklet from any page in the site.  Note that some of "
+"these\n"
+"    bookmarklets require you to be viewing the site from a computer "
+"designated\n"
+"    as \"internal\" (talk to your system administrator if you aren't sure "
+"if\n"
+"    your computer is \"internal\").</p>\n"
+"        "
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:27
+msgid "Documentation for this page"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:28
+msgid ""
+"Jumps you from any page to the documentation for the view that generates "
+"that page."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:31
+msgid "Show object ID"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:32
+msgid ""
+"Shows the content-type and unique ID for pages that represent a single "
+"object."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:35
+msgid "Edit this object (current window)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:36
+msgid "Jumps to the admin page for pages that represent a single object."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:39
+msgid "Edit this object (new window)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\bookmarklets.html:40
+msgid "As above, but opens the admin page in a new window."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\view_index.html:43
+msgid "Empty namespace"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\admin_doc\view_index.html:57
+msgid "Views by empty namespace"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\logged_out.html:16
+msgid "Log in again"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_done.html:16
+msgid "Your password was changed."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_form.html:18
+msgid ""
+"Please enter your old password, for security's sake, and then enter your new "
+"password twice so we can verify you typed it in correctly."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_form.html:23
+msgid "Old password"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_change_form.html:46
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_confirm.html:35
+msgid "Change my password"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_complete.html:16
+msgid "Your password has been set. You may go ahead and log in now."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_confirm.html:18
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_confirm.html:21
+msgid "New password:"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_confirm.html:26
+msgid "Confirm password:"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_confirm.html:47
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_done.html:5
+msgid "Password reset successful"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_done.html:16
+msgid ""
+"We've emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_done.html:17
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_email.html:2
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_email.html:4
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_email.html:8
+msgid "Your username, in case you've forgotten:"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_email.html:10
+msgid "Thanks for using our site!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_email.html:12
+#, python-format
+msgid "The %(site_name)s team"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_form.html:5
+msgid "Password reset"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_form.html:17
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_form.html:20
+msgid "Email address:"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\registration\password_reset_form.html:28
+msgid "Reset my password"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\change_list.html:6
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\recover_form.html:10
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\recover_list.html:9
+#, python-format
+msgid "Recover deleted %(name)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\object_history.html:7
+msgid ""
+"Choose a date from the list below to revert to a previous version of this "
+"object."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\object_history.html:15
+msgid "Comment"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\recover_form.html:20
+msgid "Press the save button below to recover this version of the object."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\recover_list.html:16
+msgid ""
+"Choose a date from the list below to recover a deleted version of an object."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\recover_list.html:36
+msgid "There are no deleted objects to recover."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\revision_form.html:12
+#, python-format
+msgid "Revert %(verbose_name)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\reversion\revision_form.html:21
+msgid "Press the save button below to revert to this version of the object."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\smuggler\change_list.html:7
+msgid "Dump data"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\smuggler\change_list.html:11
+#: .\venv\Lib\site-packages\grappelli\templates\smuggler\load_data_form.html:6
+#: .\venv\Lib\site-packages\grappelli\templates\smuggler\load_data_form.html:25
+#: .\venv\Lib\site-packages\grappelli\templates\smuggler\load_data_form.html:35
+msgid "Load data"
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\smuggler\load_data_form.html:46
+msgid ""
+"Existing items with same <strong>primary key</strong> will be overwritten."
+msgstr ""
+
+#: .\venv\Lib\site-packages\grappelli\templates\smuggler\load_data_form.html:53
+msgid "Load"
+msgstr ""

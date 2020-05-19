@@ -1,0 +1,992 @@
+{% extends 'basic.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+            <main class="page-main">
+                <section class="intro-block" id="main" data-midnight="dark" data-section="main">
+                    <div class="intro-block__background">
+                        <div class="intro-block__background-color-layer"></div>
+                        <div class="intro-block__background-blobs">
+                            <img src="{% static 'img/blob.png' %}" alt="" class="intro-block__background-blob icon-blob-1" />
+                            <img src="{% static 'img/blob.png' %}" alt="" class="intro-block__background-blob icon-blob-2" />
+                            <img src="{% static 'img/blob.png' %}" alt="" class="intro-block__background-blob icon-blob-3" />
+                        </div>
+                        <img src="{% static 'img/intro-block-pattern.jpg' %}" class="intro-block__background-pattern" />
+                    </div>
+                    <div class="intro-block__side-menu">
+                        <span class="intro-block__side-menu-right-bar"></span>
+                        <div class="intro-block__side-menu-inner">
+                            <a href="https://www.facebook.com/VoidDigitalCompany/" class="intro-block__side-menu-link" target="_blank">
+                                <svg width="24" height="24" aria-hidden="true" class="icon-facebook">
+                                    <use xlink:href="#facebook" />
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/void_companyv/" class="intro-block__side-menu-link" target="_blank">
+                                <svg width="24" height="24" aria-hidden="true" class="icon-instagram">
+                                    <use xlink:href="#instagram" />
+                                </svg>
+                            </a>
+                            <a href="#" class="intro-block__side-menu-link" target="_blank">
+                                <svg width="24" height="24" aria-hidden="true" class="icon-twitter">
+                                    <use xlink:href="#twitter" />
+                                </svg>
+                            </a>
+                            <a href="#" class="intro-block__side-menu-link intro-block__side-menu-link--close" target="_blank">
+                                <svg width="34" height="34" aria-hidden="true" class="icon-close">
+                                    <use xlink:href="#close" />
+                                </svg>
+                            </a>
+                            <a href="#" class="intro-block__side-menu-link" target="_blank">
+                                <svg width="24" height="24" aria-hidden="true" class="icon-linkedin">
+                                    <use xlink:href="#linkedin" />
+                                </svg>
+                            </a>
+                            <a href="#" class="intro-block__side-menu-link" target="_blank">
+                                <svg width="24" height="24" aria-hidden="true" class="icon-dribble">
+                                    <use xlink:href="#dribble" />
+                                </svg>
+                            </a>
+                            <a href="https://www.behance.net/voidcomp" class="intro-block__side-menu-link" target="_blank">
+                                <svg width="24" height="24" aria-hidden="true" class="icon-behance">
+                                    <use xlink:href="#behance" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="intro-block__open-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.02 40">
+                            <path class="wave-3" d="M9.42.28a1.29,1.29,0,1,0-1.6,2,22.46,22.46,0,0,1,0,35.38,1.29,1.29,0,1,0,1.6,2A25,25,0,0,0,9.42.28Z" />
+                            <path class="wave-1" d="M2.2,11.77A1.29,1.29,0,1,0,.38,13.6a9,9,0,0,1,0,12.8A1.29,1.29,0,0,0,2.2,28.23,11.63,11.63,0,0,0,2.2,11.77Z" />
+                            <path class="wave-2" d="M5.55,5.53a1.29,1.29,0,1,0-1.61,2A16,16,0,0,1,4,32.38a1.29,1.29,0,0,0,1.63,2A18.53,18.53,0,0,0,5.55,5.53Z" />
+                        </svg>
+                    </a>
+                    <div class="container">
+                        <div class="intro-block__content">
+                            <div class="intro-block__left-column">
+                                <div class="intro-block__hand">
+                                    <div class="intro-block__hand-image-container">
+                                        <picture>
+                                            <source type="image/webp" srcset="{% static 'img/hand.webp' %}" />
+                                            <img class="intro-block__hand-image" src="{% static 'img/hand.png' %}" alt="Изображение телефона с рукой" />
+                                        </picture>
+                                        <div class="intro-block__hand-image-frame">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 552.63 749">
+                                                <defs>
+                                                    <linearGradient id="hand-gradient" x1="276.34" y1="62" x2="276.34" y2="610" gradientUnits="userSpaceOnUse">
+                                                        <stop offset="0" stop-color="#2fd091" />
+                                                        <stop offset="1" stop-color="#33b9b7" />
+                                                    </linearGradient>
+                                                </defs>
+                                                <path d="M548.34,266V66H4.34V606h80" fill="none" stroke-width="8" stroke="url(#hand-gradient)" />
+                                            </svg>
+                                        </div>
+                                        <form action="/" method="POST" class="intro-block__hand-form" data-parsley-validate>
+                                            <div class="intro-block__hand-form-inner">
+                                                <div class="intro-block__hand-form-animation-wrapper">
+                                                    <h3 class="intro-block__hand-form-heading">
+                                                        <span class="bold">{% trans 'Бесплатная' %}</span><br />
+                                                        {% trans 'консультация' %}
+                                                    </h3>
+                                                    <label class="intro-block__hand-form-row">
+                                                        <svg width="18" height="18" aria-hidden="true" class="icon-person">
+                                                            <use xlink:href="#person" />
+                                                        </svg>
+                                                        <input type="text" class="intro-block__hand-form-input" placeholder="{% trans 'Как Вас зовут?' %}" autofocus required />
+                                                    </label>
+                                                    <label class="intro-block__hand-form-row">
+                                                        <svg width="18" height="18" aria-hidden="true" class="icon-phone">
+                                                            <use xlink:href="#phone" />
+                                                        </svg>
+                                                        <input type="tel" class="intro-block__hand-form-input" placeholder="{% trans 'Ваш телефон' %}" data-parsley-phone required />
+                                                    </label>
+                                                    <div class="intro-block__hand-form-bottom-block">
+                                                        <p class="intro-block__hand-form-text">
+                                                           {% trans 'Мы бесплатно' %} <br />
+                                                           {% trans 'консультируем Вас по' %} <br />
+                                                           {% trans 'веб-технологиям' %}
+                                                        </p>
+                                                        <button type="submit" class="intro-block__hand-form-submit">
+                                                            <span class="intro-block__hand-form-submit-content">
+                                                                <svg width="15" height="15" aria-hidden="true" class="icon-triangle">
+                                                                    <use xlink:href="#triangle" />
+                                                                </svg>
+                                                               {% trans 'Позвоните мне' %}
+                                                            </span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="intro-block__hand-form-inner-success">
+                                                    <svg width="80" height="40" aria-hidden="true" class="icon-smile">
+                                                        <use xlink:href="#smile" />
+                                                    </svg>
+                                                    <p class="intro-block__hand-form-inner-success-text">
+                                                       {% trans 'Мы' %} <br />
+                                                       {% trans 'перезвоним' %} <br />
+                                                       {% trans 'Вам через' %} <br />
+                                                        <span class="green">
+                                                         {% trans '5 минут' %}
+                                                        </span>
+                                                    </p>
+
+                                                    <svg width="30" height="30" aria-hidden="true" class="icon-pie">
+                                                        <use xlink:href="#pie" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="intro-block__right-column">
+                                <div class="intro-block__text">
+                                    <div class="intro-block__large-text">
+                                      {% trans 'МЫ' %}
+                                    </div>
+                                    <div class="intro-block__small-text js-intro-text">
+                                        <div class="text-block text-block-1">
+                                            <span class="letters">{% trans 'создаем сайты' %}</span>
+                                        </div>
+                                        <div class="text-block text-block-2">
+                                            <span class="letters">{% trans 'увеличиваем' %}</span>
+                                            <span class="letters">{% trans 'продажи' %}</span>
+                                        </div>
+                                        <div class="text-block text-block-3">
+                                            <span class="letters">{% trans 'автоматизируем' %}</span>
+                                            <span class="letters">{% trans 'процессы' %}</span>
+                                        </div>
+                                        <div class="text-block text-block-4">
+                                            <span class="letters">{% trans 'требуем от веб-сайта' %}</span>
+                                            <span class="letters">{% trans 'больше, чем Вы!' %}</span>
+                                        </div>
+                                        <div class="text-block text-block-5">
+                                            <span class="letters">{% trans 'решаем задачи' %}</span>
+                                            <span class="letters">{% trans 'вашего бизнеса' %}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="intro-block__scroll-down">
+                        <svg width="30" height="15" aria-hidden="true" class="icon-arrow-down">
+                            <use xlink:href="#arrow-down" />
+                        </svg>
+                    </a>
+                    <div class="intro-block__nav-holder">
+                        <div class="main-nav js-main-nav-sticky" data-margin-top="0" data-sticky-for="768" data-sticky-wrap="true" data-sticky-class="main-nav--sticky">
+                            <div class="container">
+                                <div class="main-nav__row">
+                                    <div class="main-nav__phone-link-wrapper">
+                                        <a href="tel:+994505480150" class="main-nav__phone-link">
+                                            <svg width="20" height="20" aria-hidden="true" class="icon-phone">
+                                                <use xlink:href="#phone" />
+                                            </svg>
+                                            +994 50 548 01 50
+                                        </a>
+                                    </div>
+                                    <nav class="main-nav__navigation">
+                                        <ul class="main-nav__list">
+                                            <li class="main-nav__list-item" data-nav="main">
+                                                <a href="#main" class="main-nav__link js-anchor-link">
+                                                {% trans 'Главное' %}
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__list-item" data-nav="services">
+                                                <a href="#services" class="main-nav__link js-anchor-link">
+                                                 {% trans 'Услуги' %}
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__list-item" data-nav="portfolio">
+                                                <a href="#portfolio" class="main-nav__link js-anchor-link">
+                                                  {% trans 'Портфолио' %}
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__list-item" data-nav="prices">
+                                                <a href="#prices" class="main-nav__link js-anchor-link">
+                                                  {% trans 'Цены' %}
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__list-item" data-nav="partners">
+                                                <a href="#partners" class="main-nav__link js-anchor-link">
+                                                  {% trans 'Партнеры' %}
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__list-item" data-nav="partners">
+                                                <a href="#blog" class="main-nav__link js-anchor-link">
+                                                  {% trans 'Блог' %}
+                                                </a>
+                                            </li>
+
+                                            <li class="main-nav__list-item" data-nav="contacts">
+                                                <a href="#contacts" class="main-nav__link js-anchor-link">
+                                                  {% trans 'Контакты' %}
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                           <div class="page-header__languages">
+                <form  action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                    <ul class="drop-list">
+                        {% for language in languages %}
+                            <li><label style="color: #2d3939" class="page-header__languages-link  {% if language.code == LANGUAGE_CODE %}active{% endif %}" for="lang_{{ language.code }}"><input class="lang-select-input" id="lang_{{ language.code }}" type="radio" name="language" value="{{ language.code }}" onchange="this.form.submit()"> {{ language.code }}</label></li>
+                        {% endfor %}
+                    </ul>
+                </form>
+
+            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="services" id="services" data-midnight="light" data-section="services">
+                    <div class="services__connect-btn-container">
+                        <div class="services__connect-btn-container-inner">
+                            <a href="#contacts" class="services__connect-btn-placeholder js-sticky-connect js-anchor-link" data-sticky-for="769" data-margin-top="300">
+                                <img src="{% static 'img/contact-btn.svg' %}" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="inner-container">
+                            <h2 class="section-heading">
+                             {% trans 'Услуги' %}
+                            </h2>
+                            <p class="section-description">
+                              {% trans ' Что решает Вашу задачу?' %}
+                            </p>
+                            <div class="services__content">
+                                <ul class="services__list">
+                                    <li class="services__list-item">
+                                        <a href="#development" class="services__card js-services-modal-open">
+                                            <h5 class="services__card-title">
+                                                <div class="services__card-title-text">{% trans 'Веб-разработка' %}</div>
+                                                <svg width="45" height="45" aria-hidden="true" class="icon-services-arrow">
+                                                    <use xlink:href="#services-arrow" />
+                                                </svg>
+                                            </h5>
+                                            <ul class="services__card-features">
+                                                <li class="services__card-features-item">
+                                                    <svg width="24" height="24" aria-hidden="true" class="icon-trending">
+                                                        <use xlink:href="#trending" />
+                                                    </svg>
+                                                    <span class="services__card-features-item-text">
+                                                       {% trans 'Увеличение' %} <br />
+                                                        <b>{% trans 'продаж' %}</b>
+                                                    </span>
+                                                </li>
+                                                <li class="services__card-features-item">
+                                                    <svg width="24" height="24" aria-hidden="true" class="icon-eye">
+                                                        <use xlink:href="#eye" />
+                                                    </svg>
+                                                    <span class="services__card-features-item-text">
+                                                        {% trans 'Узнаваемость' %}<br />
+                                                        {% trans 'бренда' %}
+                                                    </span>
+                                                </li>
+                                                <li class="services__card-features-item">
+                                                    <svg width="24" height="24" aria-hidden="true" class="icon-people">
+                                                        <use xlink:href="#people" />
+                                                    </svg>
+                                                    <span class="services__card-features-item-text"> {% trans 'Взаимодействие с' %} <br />{% trans 'потребителями' %} </span>
+                                                </li>
+                                            </ul>
+                                        </a>
+                                    </li>
+                                    <li class="services__list-item">
+                                        <a href="#apps" class="services__card js-services-modal-open">
+                                            <h5 class="services__card-title">
+                                                <div class="services__card-title-text">{% trans 'Мобильная разработка' %}</div>
+                                                <svg width="45" height="45" aria-hidden="true" class="icon-services-arrow">
+                                                    <use xlink:href="#services-arrow" />
+                                                </svg>
+                                            </h5>
+                                            <ul class="services__card-features">
+                                                <li class="services__card-features-item">
+                                                    <svg width="24" height="24" aria-hidden="true" class="icon-clocks">
+                                                        <use xlink:href="#clocks" />
+                                                    </svg>
+                                                    <span class="services__card-features-item-text">{% trans 'Работа' %} <br />24/7 </span>
+                                                </li>
+                                                <li class="services__card-features-item">
+                                                    <svg width="24" height="24" aria-hidden="true" class="icon-mobile">
+                                                        <use xlink:href="#mobile" />
+                                                    </svg>
+                                                    <span class="services__card-features-item-text">
+                                                        {% trans 'Экономия' %}<br />
+                                                        {% trans 'на сотрудниках' %}
+                                                    </span>
+                                                </li>
+                                                <li class="services__card-features-item">
+                                                    <svg width="24" height="24" aria-hidden="true" class="icon-gear">
+                                                        <use xlink:href="#gear" />
+                                                    </svg>
+                                                    <span class="services__card-features-item-text">
+                                                        <b>
+                                                          {% trans 'Автоматизация' %}
+                                                        </b>
+                                                        <br />
+                                                       {% trans 'работы' %}
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </a>
+                                    </li>
+                                    <li class="services__list-item">
+                                        <a href="#marketing" class="services__card js-services-modal-open">
+                                            <h5 class="services__card-title">
+                                                <div class="services__card-title-text">{% trans 'Digital-маркетинг' %}</div>
+                                                <svg width="45" height="45" aria-hidden="true" class="icon-services-arrow">
+                                                    <use xlink:href="#services-arrow" />
+                                                </svg>
+                                            </h5>
+                                            <ul class="services__card-features">
+                                                <li class="services__card-features-item">
+                                                    <svg width="24" height="24" aria-hidden="true" class="icon-share">
+                                                        <use xlink:href="#share" />
+                                                    </svg>
+                                                    <span class="services__card-features-item-text">
+                                                       {% trans 'Продвижение' %} <br />
+                                                       {% trans 'в соцсетях' %}
+                                                    </span>
+                                                </li>
+                                                <li class="services__card-features-item">
+                                                    <svg width="24" height="24" aria-hidden="true" class="icon-search">
+                                                        <use xlink:href="#search" />
+                                                    </svg>
+                                                    <span class="services__card-features-item-text">
+                                                        {% trans 'Продвижение' %}<br />
+                                                        <strong>{% trans 'в поисковиках' %}</strong>
+                                                    </span>
+                                                </li>
+                                                <li class="services__card-features-item">
+                                                    <svg width="24" height="24" aria-hidden="true" class="icon-target">
+                                                        <use xlink:href="#target" />
+                                                    </svg>
+                                                    <span class="services__card-features-item-text">
+                                                        {% trans 'Анализ конкурентов' %}<br />
+                                                        {% trans 'и аудитории' %}
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="portfolio" id="portfolio" data-midnight="dark" data-section="portfolio">
+                    <img data-src="{% static 'img/portfolio-bg.jpg' %}" alt="Фоновое изображение портфолио" class="portfolio__bg-image lazyload" />
+                    <div class="container">
+                        <div class="inner-container">
+                            <h2 class="section-heading section-heading--green">
+                               {% trans 'Портфолио' %}
+                            </h2>
+                            <p class="section-description">
+                               {% trans 'Эти проекты Вам знакомы' %}
+                            </p>
+                            <div class="portfolio__slider js-portfolio-slider">
+                                <button class="portfolio__slider-prev-btn">
+                                    <span class="portfolio__slider-btn-content">
+                                        <svg width="20" height="20" aria-hidden="true" class="icon-portfolio-slider-prev">
+                                            <use xlink:href="#portfolio-slider-prev" />
+                                        </svg>
+                                    </span>
+                                </button>
+                                <button class="portfolio__slider-next-btn">
+                                    <span class="portfolio__slider-btn-content">
+                                        <svg width="20" height="20" aria-hidden="true" class="icon-portfolio-slider-next">
+                                            <use xlink:href="#portfolio-slider-next" />
+                                        </svg>
+                                        <span class="portfolio__slider-btn-text">
+                                         {% trans 'Вперед' %}
+                                        </span>
+                                    </span>
+                                </button>
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                           {% for p in all_portfolio_items %}
+                                        <div class="swiper-slide">
+                                            <a href="#portfolio_item_{{ p.id }}" target="_blank" class="portfolio__card js-portfolio-modal-open">
+                                                <div class="portfolio__card-inner">
+                                                    <img data-src="{{ p.image.url }}" alt="Превью проекта" class="portfolio__card-image lazyload" />
+                                                    <div class="portfolio__card-overlay"></div>
+                                                    <div class="portfolio__card-content">
+                                                        <h4 class="portfolio__card-title">{{ p.name |safe }}</h4>
+                                                        <div class="portfolio__card-description">
+                                                            {{ p.description }}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                       {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="prices" id="prices" data-midnight="light" data-section="prices">
+                    <div class="container">
+                        <div class="inner-container">
+                            <h2 class="section-heading">
+                             {% trans 'Цены' %}
+                            </h2>
+                            <p class="section-description">
+                              {% trans 'Какой сайт решает Ваши задачи?' %}
+                            </p>
+                            <div class="prices__dev-tariffs js-prices-tabs">
+                                <nav class="prices__dev-tariffs-nav">
+                                    <a href="#" class="prices__dev-tariffs-nav-btn">
+                                      {% trans 'Чтобы недорого' %}
+                                    </a>
+                                    <a href="#" class="prices__dev-tariffs-nav-btn">
+                                      {% trans 'Чтобы продавать' %}
+                                    </a>
+                                    <a href="#" class="prices__dev-tariffs-nav-btn">
+                                    {% trans 'Чтобы все завидовали' %}
+                                    </a>
+                                </nav>
+                                <div class="prices__dev-tariffs-tabs">
+                                    <div class="prices__dev-tariffs-tab-item">
+                                        <div class="prices__dev-tariffs-tab-card">
+                                            <div class="prices__dev-tariffs-tab-card-left-col">
+                                                <div class="prices__dev-tariffs-info">
+                                                    <h5>
+                                                       {% trans 'Ваш продукт хотят многие, но о компании знают единицы?' %}
+                                                    </h5>
+                                                    <p>{% trans 'Сайт станет ходячим' %} <strong>{% trans 'лицом' %}</strong>{% trans '' %} {% trans 'Вашего бренда! Уникальные решения нашей команды специалистов способны' %} <strong>{% trans 'очаровать' %}</strong>{% trans 'Вашу аудиторию!' %} </p>
+                                                </div>
+
+                                                <a href="#contacts" class="prices__dev-tariffs-mobile-order-link js-anchor-link">
+                                                  {% trans 'Заказать' %}
+                                                </a>
+                                            </div>
+                                            <div class="prices__dev-tariffs-tab-card-right-col">
+                                                <div class="prices__dev-tariffs-price-text">
+                                                  {% trans 'Цена шедевра' %}
+                                                </div>
+                                                <div class="prices__dev-tariffs-price-amount-wrapper">
+                                                    <div class="prices__dev-tariffs-price-amount">
+                                                        2000₼
+                                                    </div>
+                                                    <a href="#contacts" class="prices__dev-tariffs-order-link js-anchor-link">
+                                                        <span class="prices__dev-tariffs-order-link-text">{% trans 'Заказать' %}</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="prices__dev-tariffs-tab-item">
+                                        <div class="prices__dev-tariffs-tab-card">
+                                            <div class="prices__dev-tariffs-tab-card-left-col">
+                                                <div class="prices__dev-tariffs-info">
+                                                    <h5>
+                                                      {% trans ' А Вы знали, что можете выбирать свою аудиторию сами?' %}
+                                                    </h5>
+                                                    <p>
+                                                     {% trans 'Сайт – это не просто лицо компании, но и движущая сила увеличения продаж! Мы превратим посетителя сайта в Вашего клиента!' %}
+                                                    </p>
+                                                </div>
+
+                                                <a href="#contacts" class="prices__dev-tariffs-mobile-order-link js-anchor-link">
+                                                  {% trans 'Заказать' %}
+                                                </a>
+                                            </div>
+                                            <div class="prices__dev-tariffs-tab-card-right-col">
+                                                <div class="prices__dev-tariffs-price-text">
+                                                  {% trans 'Цена шедевра' %}
+                                                </div>
+                                                <div class="prices__dev-tariffs-price-amount-wrapper">
+                                                    <div class="prices__dev-tariffs-price-amount">
+                                                        3000₼
+                                                    </div>
+                                                    <a href="#contacts" class="prices__dev-tariffs-order-link js-anchor-link">
+                                                        <span class="prices__dev-tariffs-order-link-text">{% trans 'Заказать' %}</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="prices__dev-tariffs-tab-item">
+                                        <div class="prices__dev-tariffs-tab-card">
+                                            <div class="prices__dev-tariffs-tab-card-left-col">
+                                                <div class="prices__dev-tariffs-info">
+                                                    <h5>
+                                                      {% trans 'Хотите стать следующей историей успеха?' %}
+                                                    </h5>
+                                                    <p>
+                                                      {% trans 'Совершенство не ждет, клиентов надо удерживать, а позиции надо сохранять и наращивать! Наш комплексный подход выведет Вас на новый уровень!' %}
+                                                    </p>
+                                                </div>
+                                                <a href="#contacts" class="prices__dev-tariffs-mobile-order-link js-anchor-link">
+                                                  {% trans 'Заказать' %}
+                                                </a>
+                                            </div>
+                                            <div class="prices__dev-tariffs-tab-card-right-col">
+                                                <div class="prices__dev-tariffs-price-text">
+                                                  {% trans 'Цена шедевра' %}
+                                                </div>
+                                                <div class="prices__dev-tariffs-price-amount-wrapper">
+                                                    <div class="prices__dev-tariffs-price-amount">
+                                                        4000₼
+                                                    </div>
+                                                    <a href="#contacts" class="prices__dev-tariffs-order-link js-anchor-link">
+                                                        <span class="prices__dev-tariffs-order-link-text">
+                                                          {% trans 'Заказать' %}
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="prices__promo-tariffs" id="prices-promo" data-midnight="light" data-section="prices">
+                    <img src="{% static 'img/blob.png' %}" alt="" class="prices__promo-blob icon-blob-1" />
+                    <img src="{% static 'img/blob.png' %}" alt="" class="prices__promo-blob icon-blob-2" />
+                    <div class="container">
+                        <div class="inner-container">
+                            <h3 class="prices__promo-tariffs-heading">
+                              {% trans 'Тарифы на продвижение' %}*
+                            </h3>
+                            <div class="prices__promo-tariffs-choices">
+                                <div class="prices__promo-tariffs-frame">
+                                    <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1033 803">
+                                        <defs>
+                                            <linearGradient id="prices-gradient" x1="-27.08" y1="595.87" x2="1112.79" y2="221.83" gradientTransform="matrix(1, 0, 0, -1, 0, 819)" gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#2fea9c" />
+                                                <stop offset="1" stop-color="#33b8b6" />
+                                            </linearGradient>
+                                        </defs>
+                                        <title>frame</title>
+                                        <path d="M494.5,1.5h537v800H1.5v-167" fill="none" stroke-width="3" stroke="url(#prices-gradient)" />
+                                    </svg>
+                                </div>
+                                <p class="prices__promo-tariffs-description">
+                                   {% trans 'Хочу увеличить количество клиентов' %}
+                                </p>
+                                <ul class="prices__promo-cards-list">
+                                    <li class="prices__promo-cards-list-item">
+                                        <a href="#contacts" class="prices__promo-card js-anchor-link">
+                                            <div class="prices__promo-card-title">
+                                                <svg width="32" height="22" aria-hidden="true" class="icon-bike">
+                                                    <use xlink:href="#bike" />
+                                                </svg>
+                                              {% trans 'Бюджетный' %}
+                                            </div>
+                                            <div class="prices__promo-card-cost">
+                                                <div class="prices__promo-card-cost-amount-wrapper">
+                                                    <div class="prices__promo-card-cost-amount">
+                                                        600<span class="currency">₼</span>
+                                                        <span class="prices__promo-card-cost-rate">
+                                                          {% trans 'в месяц' %}
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="prices__promo-card-number-of-places">
+                                                   {% trans 'Количество мест' %} - <span class="count">35</span>
+                                                    <svg width="17" height="17" aria-hidden="true" class="icon-person">
+                                                        <use xlink:href="#person" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="prices__promo-card-features-block">
+                                                <ul class="prices__promo-card-features-list">
+                                                    <li class="prices__promo-card-features-list-item">
+                                                     {% trans 'SMM-продвижение' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                      {% trans 'SEO-продвижение' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                      {% trans 'Интеграция CRM систем' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                      {% trans 'Техническая поддержка' %}
+                                                    </li>
+                                                </ul>
+                                                <div class="prices__promo-card-order-btn">
+                                                    {% trans 'Заказать' %}
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="prices__promo-cards-list-item">
+                                        <a href="#contacts" class="prices__promo-card prices__promo-card--red js-anchor-link">
+                                            <div class="prices__promo-card-title">
+                                                <svg width="32" height="22" aria-hidden="true" class="icon-car">
+                                                    <use xlink:href="#car" />
+                                                </svg>
+                                                {% trans 'Стандартный' %}
+                                            </div>
+                                            <div class="prices__promo-card-cost">
+                                                <div class="prices__promo-card-cost-amount-wrapper">
+                                                    <div class="prices__promo-card-cost-amount">
+                                                        1000<span class="currency">₼</span>
+                                                        <span class="prices__promo-card-cost-rate">
+                                                         {% trans 'в месяц' %}
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="prices__promo-card-number-of-places">
+                                                    {% trans 'Количество мест' %} - <span class="count">15</span>
+                                                    <svg width="17" height="17" aria-hidden="true" class="icon-person">
+                                                        <use xlink:href="#person" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="prices__promo-card-features-block">
+                                                <ul class="prices__promo-card-features-list">
+                                                    <li class="prices__promo-card-features-list-item">
+                                                     {% trans 'SMM-продвижение' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                       {% trans 'SEO-продвижение' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                      {% trans 'Интеграция CRM систем' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                     {% trans 'Разработка промо сайтов' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                     {% trans 'Интеграция с виджетами' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                    {% trans 'Куратор проектов' %}
+                                                    </li>
+                                                </ul>
+                                                <div class="prices__promo-card-order-btn">
+                                                   {% trans 'Заказать' %}
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="prices__promo-cards-list-item">
+                                        <a href="#contacts" class="prices__promo-card prices__promo-card--green js-anchor-link">
+                                            <div class="prices__promo-card-title">
+                                                <svg width="32" height="22" aria-hidden="true" class="icon-plane">
+                                                    <use xlink:href="#plane" />
+                                                </svg>
+                                               {% trans 'Эксклюзивный' %}
+                                            </div>
+                                            <div class="prices__promo-card-cost">
+                                                <div class="prices__promo-card-cost-amount-wrapper">
+                                                    <div class="prices__promo-card-cost-amount">
+                                                        1500<span class="currency">₼</span>
+                                                        <span class="prices__promo-card-cost-rate">
+                                                          {% trans 'в месяц' %}
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="prices__promo-card-number-of-places">
+                                                   {% trans 'Количество мест' %}  - <span class="count">7</span>
+                                                    <svg width="17" height="17" aria-hidden="true" class="icon-person">
+                                                        <use xlink:href="#person" />
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="prices__promo-card-features-block">
+                                                <ul class="prices__promo-card-features-list">
+                                                    <li class="prices__promo-card-features-list-item">
+                                                      {% trans 'SMM-продвижение' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                      {% trans 'SEO-продвижение' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                      {% trans 'Интеграция CRM систем' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                      {% trans 'Анализ конкурентов' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                      {% trans 'Создание семантического ядра сайта' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                      {% trans 'Разработка сайта компании' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                      {% trans 'Автоматизация бизнес процессов' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                      {% trans 'Автоматизация воронки продаж' %}
+                                                    </li>
+                                                    <li class="prices__promo-card-features-list-item">
+                                                      {% trans 'Персональный менеджер' %}
+                                                    </li>
+                                                </ul>
+                                                <div class="prices__promo-card-order-btn">
+                                                  {% trans 'Заказать' %}
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="prices__promo-tariffs-remark">
+                              {% trans 'Чтобы сохранить качество, мы вынуждены ограничить максимальное количество принимаемых заказов по каждому тарифу.' %}
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="partners" id="partners" data-midnight="dark" data-section="partners">
+                    <img data-src="{% static 'img/portfolio-bg.jpg' %}" alt="Фоновое изображение блока партнеров" class="partners__bg-image lazyload" />
+                    <div class="container">
+                        <div class="inner-container">
+                            <h2 class="section-heading section-heading--green">
+                              {% trans 'Партнеры' %}
+                            </h2>
+                            <p class="section-description">
+                              {% trans ' Станьте тоже нашим партнером' %}
+                            </p>
+                            <div class="partners__slider js-partners-slider">
+                                <button class="partners__slider-prev-btn">
+                                    <span class="partners__slider-btn-content">
+                                        <svg width="20" height="20" aria-hidden="true" class="icon-portfolio-slider-prev">
+                                            <use xlink:href="#portfolio-slider-prev" />
+                                        </svg>
+                                    </span>
+                                </button>
+                                <button class="partners__slider-next-btn">
+                                    <span class="partners__slider-btn-content">
+                                        <svg width="20" height="20" aria-hidden="true" class="icon-portfolio-slider-next">
+                                            <use xlink:href="#portfolio-slider-next" />
+                                        </svg>
+                                    </span>
+                                </button>
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        {% for parnter in all_partners %}
+                                        <div class="swiper-slide">
+                                            <a href="#" class="partners__slider-card">
+                                                <div class="partners__slider-card-logo-container">
+                                                    <img src="{{ parnter.image.url }}" alt="" class="partners__slider-card-logo" />
+                                                </div>
+                                                <p class="partners__slider-card-description">
+                                                    {{ parnter.description }}
+                                                </p>
+                                                <p class="partners__slider-collaboration-text">
+                                                   {% trans 'Совместные работы:' %}
+                                                </p>
+                                                <ul class="partners__slider-list">
+                                                    {% for unit in parnter.units.all %}
+                                                    <li class="partners__slider-list-item">
+                                                       {{ unit.name }}
+                                                    </li>
+                                                    {% endfor %}
+                                                </ul>
+                                            </a>
+                                        </div>
+                                        {% endfor %}
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="blog" id="blog" data-midnight="light" data-section="blog">
+                    <div class="container">
+                        <div class="inner-container">
+                            <h2 class="section-heading">
+                                <a href="articles.html">{% trans 'Блог' %}</a>
+                            </h2>
+                            <p class="section-description">
+                                {% trans 'Интересные статьи для Вас' %}
+                                <a href="{% url 'all_articles' %}" class="blog__all-articles-link"
+                                    >{% trans 'Все статьи' %}
+
+                                    <svg width="15" height="25" aria-hidden="true" class="icon-articles-arrow">
+                                        <use xlink:href="#articles-arrow" />
+                                    </svg>
+                                </a>
+                            </p>
+                            <div class="blog__articles">
+                                <ul class="blog__articles-list">
+                                    {% for post in latest_blog_posts %}
+                                    <li class="blog__articles-list-item">
+                                        <a href="{% url 'article' post.name_slug %}" class="blog__articles-card">
+                                            <div class="blog__articles-card-image-container">
+                                                <img data-src="{{ post.image.url }}" alt="" class="blog__articles-card-image lazyload" />
+                                            </div>
+                                            <div class="blog__articles-card-content">
+                                                <h4 class="blog__articles-card-title">
+                                                    {{ post.name }}
+                                                </h4>
+                                                <p class="blog__articles-card-preview">
+                                                    {{ post.description |safe |truncatechars_html:80 }}
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+
+                            <a href="https://t.me/Void_Company" target="_blank" class="blog__telegram-channel-link">
+                                <svg width="40" height="40" aria-hidden="true" class="icon-telegram">
+                                    <use xlink:href="#telegram" />
+                                </svg>
+                                {% trans 'Наш Телеграм-канал' %}
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="contacts" id="contacts" data-midnight="light" data-section="contacts">
+                    <div class="container">
+                        <div class="inner-container">
+                            <div class="contacts__row">
+                                <div class="contacts__col">
+                                    <div class="contacts__in-contact">
+                                        <h3 class="contacts__in-contact-heading">
+                                          {% trans 'Мы на связи' %}
+                                        </h3>
+                                        <p class="contacts__in-contact-description">
+                                           {% trans 'Свяжитесь с нами по' %} <br />
+                                           {% trans 'любому вопросу' %}
+                                        </p>
+                                        <div class="contacts__in-contact-links">
+                                            <a href="tel:+994505480150" class="contacts__in-contact-link">
+                                                <svg width="35" height="35" aria-hidden="true" class="icon-phone">
+                                                    <use xlink:href="#phone" />
+                                                </svg>
+                                                +994 50 548 01 50
+                                            </a>
+                                            <a href="mailto:info@void.az" class="contacts__in-contact-link">
+                                                <svg width="35" height="35" aria-hidden="true" class="icon-mail">
+                                                    <use xlink:href="#mail" />
+                                                </svg>
+                                                info@void.az
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contacts__col">
+                                    <form action="/" method="POST" class="contacts__form" data-parsley-validate>
+                                        <div class="contacts__form-frame">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 460 510" preserveAspectRatio="none">
+                                                <defs>
+                                                    <linearGradient id="linear-gradient" x1="-25.41" y1="329.71" x2="510.17" y2="206.59" gradientTransform="matrix(1, 0, 0, -1, 0, 526)" gradientUnits="userSpaceOnUse">
+                                                        <stop offset="0" stop-color="#2fea9c" />
+                                                        <stop offset="1" stop-color="#33b8b6" />
+                                                    </linearGradient>
+                                                </defs>
+
+                                                <rect x="1.5" y="1.5" width="457" height="507" fill="none" stroke-width="3" stroke="url(#linear-gradient)" />
+                                            </svg>
+                                        </div>
+                                        <div class="contacts__form-inner">
+                                            <h3 class="contacts__form-heading">
+                                               {% trans 'Бесплатная консультация' %}
+                                            </h3>
+                                            <label class="contacts__form-label">
+                                               {% trans 'Ваше полное имя' %}
+                                                <input type="text" class="contacts__form-input" placeholder="{% trans 'Имя Фамилия' %}" required />
+                                            </label>
+                                            <label class="contacts__form-label">
+                                               {% trans 'Номер телефона' %}
+                                                <input type="tel" class="contacts__form-input" placeholder="+994" required data-parsley-phone />
+                                            </label>
+                                            <button type="submit" class="contacts__form-submit">
+                                                <span class="contacts__form-submit-content">
+                                                    <svg width="15" height="15" aria-hidden="true" class="icon-triangle">
+                                                        <use xlink:href="#triangle" />
+                                                    </svg>
+                                                   {% trans 'ПОЗВОНИТЕ МНЕ' %}
+                                                </span>
+                                            </button>
+
+                                            <div class="contacts__form-success">
+                                                <div class="contacts__form-success-inner">
+                                                    <svg width="120" height="60" aria-hidden="true" class="icon-smile">
+                                                        <use xlink:href="#smile" />
+                                                    </svg>
+                                                    <p class="contacts__form-success-text">
+                                                       {% trans 'Мы' %}<br />
+                                                        {% trans 'перезвоним Вам через' %} <em>{% trans '5 минут' %}</em>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+
+{% endblock %}
+
+{% block js %}
+    {{ block.super }}
+     <script>
+                // Тестовые скрипты
+                document.addEventListener('DOMContentLoaded', function() {
+                    var introBlockForm = document.querySelector('.intro-block__hand-form');
+
+                    if (introBlockForm) {
+                        introBlockForm.addEventListener('submit', function(event) {
+                            if (
+                                $(introBlockForm)
+                                    .parsley()
+                                    .isValid()
+                            ) {
+                                event.preventDefault();
+                                introBlockForm.classList.add('success');
+                            }
+                        });
+                    }
+
+                    var contactsForm = document.querySelector('.contacts__form');
+
+                    if (contactsForm) {
+                        contactsForm.addEventListener('submit', function() {
+                            if (
+                                $(contactsForm)
+                                    .parsley()
+                                    .isValid()
+                            ) {
+                                event.preventDefault();
+                                contactsForm.classList.add('success');
+                            }
+                        });
+                    }
+
+                    var modalForms = Array.prototype.slice.call(document.querySelectorAll('.modal__marketing-free-consultation-form'));
+
+                    modalForms.forEach(function(form) {
+                        form.addEventListener('submit', function(event) {
+                            var container = form.closest('.modal__marketing-free-consultation');
+                            if (
+                                $(form)
+                                    .parsley()
+                                    .isValid()
+                            ) {
+                                event.preventDefault();
+
+                                if (container) {
+                                    container.classList.add('success');
+                                }
+                            }
+                        });
+                    });
+                });
+            </script>
+
+{% endblock %}
+
+

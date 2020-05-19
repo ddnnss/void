@@ -1,0 +1,45 @@
+{% load i18n %}
+   <div class="modal__marketing-free-consultation">
+                                        <div class="modal__marketing-frame"></div>
+                                        <div class="modal__marketing-free-consultation-inner">
+                                            <h4 class="modal__marketing-free-consultation-heading">
+                                              {% trans 'Бесплатная консультация' %}
+                                            </h4>
+                                            <form action="/" method="POST" class="modal__marketing-free-consultation-form" data-parsley-validate>
+                                                <div class="modal__marketing-free-consultation-form-row">
+                                                    <label class="modal__marketing-free-consultation-form-label">
+                                                      {% trans 'Ваше полное имя' %}
+                                                        <input type="text" class="modal__marketing-free-consultation-form-input" placeholder="{% trans 'Имя Фамилия' %}" required />
+                                                    </label>
+                                                </div>
+                                                <div class="modal__marketing-free-consultation-form-row">
+                                                    <label class="modal__marketing-free-consultation-form-label">
+                                                      {% trans 'Номер телефона' %}
+                                                        <input type="tel" class="modal__marketing-free-consultation-form-input" placeholder="+994" required data-parsley-phone />
+                                                    </label>
+                                                </div>
+                                                <div class="modal__marketing-free-consultation-form-submit-wrapper">
+                                                    <button type="submit" class="modal__marketing-free-consultation-form-submit">
+                                                        <span class="modal__marketing-free-consultation-form-submit-content">
+                                                            <svg width="20" height="20" aria-hidden="true" class="icon-triangle">
+                                                                <use xlink:href="#triangle" />
+                                                            </svg>
+                                                           {% trans 'ПОЗВОНИТЕ МНЕ' %}
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                        <div class="modal__marketing-free-consultation-success">
+                                            <div class="modal__marketing-free-consultation-success-inner">
+                                                <svg width="120" height="60" aria-hidden="true" class="icon-smile">
+                                                    <use xlink:href="#smile" />
+                                                </svg>
+                                                <p class="modal__marketing-free-consultation-success-text">
+                                                   {% trans ' Мы перезвоним Вам' %}<br />
+                                                    {% trans 'через' %} <em>{% trans '5 минут' %}</em>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>

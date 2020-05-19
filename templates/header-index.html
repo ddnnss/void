@@ -1,0 +1,139 @@
+{% load static %}
+{% load i18n %}
+<header class="page-header">
+    <div class="container">
+        <div class="page-header__mobile-row">
+            <div class="page-header__mobile-row-inner">
+                <button class="page-header__burger">
+                                <span class="page-header__burger-content">
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                </button>
+
+                <a href="tel:+994505480150" class="page-header__mobile-phone-link">
+                    <svg width="28" height="28" aria-hidden="true" class="icon-phone-stylized">
+                        <use xlink:href="#phone-stylized" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <a href="#" class="page-header__mobile-row-logo-link">
+            <svg class="page-header__mobile-row-logo-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60.01 59.92">
+                <defs>
+                    <linearGradient id="linear-gradient" x1="29.87" y1="45.19" x2="29.87" y2="14.8" gradientTransform="matrix(1, 0, 0, -1, 0, 60)" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#2fea9c" />
+                        <stop offset="0.99" stop-color="#33b8b6" />
+                    </linearGradient>
+                    <linearGradient id="New_Gradient_Swatch" x1="0" y1="29.96" x2="60.01" y2="29.96" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#linear-gradient" />
+                </defs>
+
+                <path d="M14.29,16.88V14.81H20L30.13,41.3l9.09-24.42H35.58V14.81h9.87v2.07H41.3L30.91,45.2H28.83L18.18,16.88Z" transform="translate(0.08 0)" fill="url(#linear-gradient)" />
+                <polyline class="page-header__mobile-row-logo-image-frame" points="1 19.58 1 1 59.01 1 59.01 58.92 29.28 58.92" fill="none" stroke-miterlimit="10" stroke-width="2" stroke="url(#New_Gradient_Swatch)" />
+            </svg>
+        </a>
+        <nav class="page-header__mobile-nav">
+            <div class="page-header__mobile-nav-inner">
+                <ul class="page-header__mobile-nav-list">
+                    <li class="page-header__mobile-nav-list-item">
+                        <a href="#main" class="page-header__mobile-link js-anchor-link">
+                         {% trans 'Главное' %}
+                        </a>
+                    </li>
+                    <li class="page-header__mobile-nav-list-item">
+                        <a href="#services" class="page-header__mobile-link js-anchor-link">
+                         {% trans 'Услуги' %}
+                        </a>
+                    </li>
+                    <li class="page-header__mobile-nav-list-item">
+                        <a href="#portfolio" class="page-header__mobile-link js-anchor-link">
+                         {% trans 'Портфолио' %}
+                        </a>
+                    </li>
+                    <li class="page-header__mobile-nav-list-item">
+                        <a href="#prices" class="page-header__mobile-link js-anchor-link">
+                         {% trans 'Цены' %}
+                        </a>
+                    </li>
+                    <li class="page-header__mobile-nav-list-item">
+                        <a href="#partners" class="page-header__mobile-link js-anchor-link">
+                        {% trans 'Партнеры' %}
+                        </a>
+                    </li>
+                    <li class="page-header__mobile-nav-list-item">
+                        <a href="#blog" class="page-header__mobile-link js-anchor-link">
+                         {% trans 'Блог' %}
+                        </a>
+                    </li>
+                    <li class="page-header__mobile-nav-list-item">
+                        <a href="#contacts" class="page-header__mobile-link js-anchor-link">
+                        {% trans 'Контакты' %}
+                        </a>
+                    </li>
+                </ul>
+                <a href="tel:+994505480150" class="page-header__mobile-nav-phone-link">
+                    <svg width="20" height="20" aria-hidden="true" class="icon-phone">
+                        <use xlink:href="#phone" />
+                    </svg>
+                    +994 50 548 01 50
+                </a>
+                <div >
+
+                      <form  action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                    <ul class="page-header__mobile-nav-languages">
+                        {% for language in languages %}
+                            <li class="mobile_lang {% if language.code == LANGUAGE_CODE %} mobile_lang_active {% endif %}"><label class="page-header__mobile-nav-language-link  " for="lang_{{ language.code }}"><input class="lang-select-input" id="lang_{{ language.code }}" type="radio" name="language" value="{{ language.code }}" onchange="this.form.submit()"> {{ language.code }}</label></li>
+                        {% endfor %}
+                    </ul>
+                </form>
+
+
+                </div>
+
+                <a href="#contacts" class="page-header__mobile-nav-connect-btn js-anchor-link">
+                    <svg width="24" height="24" aria-hidden="true" class="icon-phone-stylized">
+                        <use xlink:href="#phone-stylized" />
+                    </svg>
+                    <div class="page-header__mobile-nav-connect-btn-text">
+                     {% trans 'Связаться' %}
+                    </div>
+                </a>
+            </div>
+        </nav>
+
+        <div class="page-header__row">
+            <a href="index.html" class="page-header__logo-link">
+                <!-- <img src="img/logo.svg" width="60" alt="" class="page-header__logo-image" /> -->
+
+                <svg class="page-header__logo-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60.01 59.92">
+                    <defs>
+                        <linearGradient id="linear-gradient" x1="29.87" y1="45.19" x2="29.87" y2="14.8" gradientTransform="matrix(1, 0, 0, -1, 0, 60)" gradientUnits="userSpaceOnUse">
+                            <stop offset="0" stop-color="#2fea9c" />
+                            <stop offset="0.99" stop-color="#33b8b6" />
+                        </linearGradient>
+                        <linearGradient id="New_Gradient_Swatch" x1="0" y1="29.96" x2="60.01" y2="29.96" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#linear-gradient" />
+                    </defs>
+
+                    <path d="M14.29,16.88V14.81H20L30.13,41.3l9.09-24.42H35.58V14.81h9.87v2.07H41.3L30.91,45.2H28.83L18.18,16.88Z" transform="translate(0.08 0)" fill="url(#linear-gradient)" />
+                    <polyline class="page-header__logo-image-to-animate" points="1 19.58 1 1 59.01 1 59.01 58.92 29.28 58.92" fill="none" stroke-miterlimit="10" stroke-width="2" stroke="url(#New_Gradient_Swatch)" />
+                </svg>
+            </a>
+            <a href="tel:+994505480150" class="page-header__phone-link">
+                <svg width="20" height="20" aria-hidden="true" class="icon-phone">
+                    <use xlink:href="#phone" />
+                </svg>
+                +994 50 548 01 50
+            </a>
+            <div class="page-header__languages">
+                <form  action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                    <ul class="drop-list">
+                        {% for language in languages %}
+                            <li><label class="page-header__languages-link  {% if language.code == LANGUAGE_CODE %}active{% endif %}" for="lang_{{ language.code }}"><input class="lang-select-input" id="lang_{{ language.code }}" type="radio" name="language" value="{{ language.code }}" onchange="this.form.submit()"> {{ language.code }}</label></li>
+                        {% endfor %}
+                    </ul>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</header>

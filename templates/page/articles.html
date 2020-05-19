@@ -1,0 +1,123 @@
+{% extends 'basic.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+  <main class="page-main">
+    <section class="blog-page js-blog-page" data-midnight="light">
+        <div class="container">
+            <div class="inner-container">
+                <div class="blog-page__top-row">
+                    <h1 class="blog-page__heading">
+                        {% trans 'Блог' %}
+                    </h1>
+                    <a href="https://t.me/Void_Company" class="blog-page__our-telegram">
+                        <svg width="35" height="35" aria-hidden="true" class="icon-telegram">
+                            <use xlink:href="#telegram" />
+                        </svg>
+                       {% trans 'Наш Телеграм-канал' %}
+                    </a>
+                </div>
+                <div class="blog-page__nav">
+
+                    <a href="#" class="blog-page__link js-blog-filter-btn active" data-filter="all">Все</a>
+                    {% for type in all_types %}
+
+                    <a href="#" class="blog-page__link js-blog-filter-btn" data-filter="{{ type.name_slug }}">{{ type.name }}</a>
+                   {% endfor %}
+                    <a href="#" class="blog-page__link marked">Для инвесторов</a>
+                    <a href="#" class="blog-page__link marked">Партнерка</a>
+                </div>
+
+                <div class="blog-page__cards">
+                    {% if top2_articles %}
+                    <ul class="blog-page__cards-list blog-page__cards-list--large">
+                        {% for article in top2_articles %}
+                        <li class="blog-page__cards-list-item blog-page__cards-list-item--large" data-category="{{ article.type.name_slug }}">
+                            <a href="{% url 'article' article.name_slug %}" class="blog-page__card">
+                                <div class="blog-page__card-image-container">
+                                    <img src="{{ article.image.url }}" alt="" class="blog-page__card-image" />
+                                </div>
+                                <div class="blog-page__card-content blog-page__card-content--large">
+                                    <h3 class="blog-page__card-title">
+                                         {{ article.name }}
+                                    </h3>
+                                    <div class="blog-page__card-text">
+                                    {{ article.description |safe |truncatechars_html:80 }}
+                                    </div>
+                                    <div class="blog-page__card-category">
+                                        {{ article.type.name }}
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                    <ul class="blog-page__cards-list">
+                        {% if showed_articles %}
+                        {% for article in showed_articles %}
+                        <li class="blog-page__cards-list-item" data-category="{{ article.type.name_slug }}">
+                            <a href="{% url 'article' article.name_slug %}" class="blog-page__card">
+                                <div class="blog-page__card-image-container">
+                                    <img src="{{ article.image.url }}" alt="" class="blog-page__card-image" />
+                                </div>
+                                <div class="blog-page__card-content">
+                                    <h3 class="blog-page__card-title">
+                                       {{ article.name }}
+                                    </h3>
+                                    <div class="blog-page__card-text">
+                                      {{ article.description |safe |truncatechars_html:80 }}
+                                    </div>
+                                    <div class="blog-page__card-category">
+                                        {{ article.type.name }}
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        {% endfor %}
+                        {% endif %}
+                    {% if hidden_articles %}
+
+
+                        <li class="blog-page__cards-show-more-wrapper">
+                            <a href="#" class="blog-page__cards-show-more js-articles-show-more">
+                               {% trans 'Показать еще' %}
+                            </a>
+                        </li>
+                         {% for article in hidden_articles %}
+                        <li class="blog-page__cards-list-item blog-page__cards-list-item--hidden" data-category="{{ article.type.name_slug }}">
+                            <a href="{% url 'article' article.name_slug %}" class="blog-page__card">
+                                <div class="blog-page__card-image-container">
+                                    <img src="{{ article.image.url }}" alt="" class="blog-page__card-image" />
+                                </div>
+                                <div class="blog-page__card-content">
+                                    <h3 class="blog-page__card-title">
+                                       {{ article.name }}
+                                    </h3>
+                                    <div class="blog-page__card-text">
+                                      {{ article.description |safe |truncatechars_html:80 }}
+                                    </div>
+                                    <div class="blog-page__card-category">
+                                        {{ article.type.name }}
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        {% endfor %}
+
+
+
+                    {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+{% endblock %}
+
+{% block js %}
+    {{ block.super }}
+{% endblock %}
+
+

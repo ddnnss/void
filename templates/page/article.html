@@ -1,0 +1,112 @@
+ {% extends 'basic.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+      <main class="page-main">
+                <section class="article" data-midnight="light">
+                    <div class="container">
+                        <div class="inner-container">
+                            <div class="article__content">
+                                <div class="modal__article-top-image-container">
+                                    <img src="{{ article.image.url }}" alt="" class="modal__article-top-image" />
+                                </div>
+                                <article class="modal__article-content">
+                                    <div class="modal__article-content-category">
+                                        {{ article.type.name }}
+                                    </div>
+                                    <h3 class="modal__article-content-heading">
+                                       {{ article.name }}
+                                    </h3>
+                                    <div class="modal__article-content-text">
+                                      {{ article.description | safe }}
+                                    </div>
+                                </article>
+                                <div class="modal__article-learn-about-everything">
+                                    <div class="modal__article-learn-about-everything-left-col">
+                                        <h4 class="modal__article-learn-about-everything-title">
+                                          {% trans 'Узнайте обо всем вовремя' %}
+                                        </h4>
+                                        <a href="#" class="modal__article-learn-telegram-channel">
+                                            <svg width="35" height="35" aria-hidden="true" class="icon-telegram">
+                                                <use xlink:href="#telegram" />
+                                            </svg>
+                                            {% trans 'Наш Телеграм-канал' %}
+                                        </a>
+                                    </div>
+                                    <div class="modal__article-learn-about-everything-right-col">
+                                        <h4 class="modal__article-learn-about-everything-title">
+                                           {% trans 'Поделитесь' %}
+                                        </h4>
+                                        <div class="modal__article-learn-about-everything-social">
+                                            <a href="#" class="modal__article-learn-about-everything-social-link">
+                                                <svg width="12" height="24" aria-hidden="true" class="icon-fb">
+                                                    <use xlink:href="#fb" />
+                                                </svg>
+                                            </a>
+                                            <a href="#" class="modal__article-learn-about-everything-social-link">
+                                                <svg width="12" height="24" aria-hidden="true" class="icon-twitter">
+                                                    <use xlink:href="#twitter" />
+                                                </svg>
+                                            </a>
+                                            <a href="#" class="modal__article-learn-about-everything-social-link">
+                                                <svg width="12" height="24" aria-hidden="true" class="icon-telegram">
+                                                    <use xlink:href="#telegram" />
+                                                </svg>
+                                            </a>
+                                            <a href="#" class="modal__article-learn-about-everything-social-link">
+                                                <svg width="12" height="24" aria-hidden="true" class="icon-whatsapp">
+                                                    <use xlink:href="#whatsapp" />
+                                                </svg>
+                                            </a>
+                                            <a href="#" class="modal__article-learn-about-everything-social-link">
+                                                <svg width="12" height="24" aria-hidden="true" class="icon-vk">
+                                                    <use xlink:href="#vk" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="article__other-articles">
+                                <div class="article__other-articles-top-row">
+                                    <h2 class="section-heading article__other-articles-heading">
+                                      {% trans 'Другие записи' %}
+                                    </h2>
+                                    <a href="{%  url 'all_articles' %}" class="blog__all-articles-link article__other-articles-link"
+                                        >{% trans 'Все статьи' %}
+
+                                        <svg width="15" height="25" aria-hidden="true" class="icon-articles-arrow">
+                                            <use xlink:href="#articles-arrow" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <ul class="blog-page__cards-list">
+                                    {% for article1 in all_articles %}
+                                    <li class="blog-page__cards-list-item" data-category="design">
+                                        <a href="{% url 'article' article1.name_slug %}" class="blog-page__card js-articles-modal-open">
+                                            <div class="blog-page__card-image-container">
+                                                <img src="{{ article1.image.url }}" alt="" class="blog-page__card-image" />
+                                            </div>
+                                            <div class="blog-page__card-content">
+                                                <h3 class="blog-page__card-title">
+                                                   {{ article1.name }}
+                                                </h3>
+                                                <div class="blog-page__card-text">
+                                                {{ article1.description |safe |truncatechars_html:80 }}</div>
+                                                <div class="blog-page__card-category">
+                                                     {{ article1.type.name }}
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+{% endblock %}
+{% block js %}
+    {{ block.super }}
+{% endblock %}
