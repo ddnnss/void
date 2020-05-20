@@ -80,9 +80,9 @@
                                                 <path d="M548.34,266V66H4.34V606h80" fill="none" stroke-width="8" stroke="url(#hand-gradient)" />
                                             </svg>
                                         </div>
-                                        <form action="/" method="POST" class="intro-block__hand-form" data-parsley-validate>
+                                        <form onsubmit="sendCallback(event,'hand')" class="intro-block__hand-form" data-parsley-validate>
                                             <div class="intro-block__hand-form-inner">
-                                                <div class="intro-block__hand-form-animation-wrapper">
+                                                <div id="hand-form-wrapper" class="intro-block__hand-form-animation-wrapper ">
                                                     <h3 class="intro-block__hand-form-heading">
                                                         <span class="bold">{% trans 'Бесплатная' %}</span><br />
                                                         {% trans 'консультация' %}
@@ -91,13 +91,13 @@
                                                         <svg width="18" height="18" aria-hidden="true" class="icon-person">
                                                             <use xlink:href="#person" />
                                                         </svg>
-                                                        <input type="text" class="intro-block__hand-form-input" placeholder="{% trans 'Как Вас зовут?' %}" autofocus required />
+                                                        <input id="hand_name" type="text" class="intro-block__hand-form-input" placeholder="{% trans 'Как Вас зовут?' %}" autofocus required />
                                                     </label>
                                                     <label class="intro-block__hand-form-row">
                                                         <svg width="18" height="18" aria-hidden="true" class="icon-phone">
                                                             <use xlink:href="#phone" />
                                                         </svg>
-                                                        <input type="tel" class="intro-block__hand-form-input" placeholder="{% trans 'Ваш телефон' %}" data-parsley-phone required />
+                                                        <input id="hand_tel" type="tel" class="intro-block__hand-form-input" placeholder="{% trans 'Ваш телефон' %}" data-parsley-phone required />
                                                     </label>
                                                     <div class="intro-block__hand-form-bottom-block">
                                                         <p class="intro-block__hand-form-text">
@@ -115,7 +115,7 @@
                                                         </button>
                                                     </div>
                                                 </div>
-                                                <div class="intro-block__hand-form-inner-success">
+                                                <div id="hand-form-success" class="intro-block__hand-form-inner-success ">
                                                     <svg width="80" height="40" aria-hidden="true" class="icon-smile">
                                                         <use xlink:href="#smile" />
                                                     </svg>
@@ -874,7 +874,7 @@
                                     </div>
                                 </div>
                                 <div class="contacts__col">
-                                    <form action="/" method="POST" class="contacts__form" data-parsley-validate>
+                                    <form onsubmit="sendCallback(event,'contact')" class="contacts__form" data-parsley-validate>
                                         <div class="contacts__form-frame">
                                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 460 510" preserveAspectRatio="none">
                                                 <defs>
@@ -893,11 +893,11 @@
                                             </h3>
                                             <label class="contacts__form-label">
                                                {% trans 'Ваше полное имя' %}
-                                                <input type="text" class="contacts__form-input" placeholder="{% trans 'Имя Фамилия' %}" required />
+                                                <input id="contact_name" type="text" class="contacts__form-input" placeholder="{% trans 'Имя Фамилия' %}" required />
                                             </label>
                                             <label class="contacts__form-label">
                                                {% trans 'Номер телефона' %}
-                                                <input type="tel" class="contacts__form-input" placeholder="+994" required data-parsley-phone />
+                                                <input id="contact_tel" type="tel" class="contacts__form-input" placeholder="+994" required data-parsley-phone />
                                             </label>
                                             <button type="submit" class="contacts__form-submit">
                                                 <span class="contacts__form-submit-content">
@@ -908,7 +908,7 @@
                                                 </span>
                                             </button>
 
-                                            <div class="contacts__form-success">
+                                            <div id="contacts-form-success" class="contacts__form-success">
                                                 <div class="contacts__form-success-inner">
                                                     <svg width="120" height="60" aria-hidden="true" class="icon-smile">
                                                         <use xlink:href="#smile" />

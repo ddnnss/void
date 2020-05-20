@@ -21,3 +21,32 @@
         font-weight: 900;
     background-color: #ebf6f6;
 }
+
+.hand-form-hide{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.hand-form-success-active{
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+}
+
+.hand-form-success-active .icon-pie{
+    animation-play-state: running;
+}
+
+.hand-form-success-active .icon-smile{
+    animation-play-state: running;
+}
+
+.hand-form-success-active > .intro-block__hand-form-inner-success-text{
+     animation-play-state: running;
+}
+
+.contacts-form-success{
+    opacity: 1;
+    visibility: visible;
+}

@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'portfolio.apps.PortfolioConfig',
     'partner.apps.PartnerConfig',
+    'page'
 ]
 
 MIDDLEWARE = [
